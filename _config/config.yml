@@ -1,0 +1,19 @@
+---
+Name: icms-branding
+---
+SilverStripe\Admin\LeftAndMain:
+  application_name: 'INCO CMS'
+  application_link: 'https://www.inco-digital.com'
+  help_links:
+    # Add new links
+    'Support': 'https://www.inco-digital.com/support/'
+    'INCO Digital': 'https://www.inco-digital.com/'
+    'INCO Education': 'https://www.inco-education.co.uk/'
+    'INCO Security': 'https://www.inco-security.co.uk/'
+    # Remove existing links
+    'CMS User help': ''
+    'Developer docs': ''
+    'Community': ''
+    'Feedback': ''
+  extra_requirements_css:
+    - 'incodigital/icms-branding: style/incoCMS.css'

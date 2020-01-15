@@ -1,0 +1,25 @@
+{
+    "name": "incodigital/icms-branding",
+    "description": "Set the Application Name, Link, Logos and Help Links",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "inco"
+    ],
+    "homepage": "http://github.com/incodigital/icms-branding",
+    "license": "GPL-3.0-only",
+    "authors": [{
+        "name": "INCO Digital",
+        "homepage": "https://www.inco-digital.com",
+        "email": "info@inco-digital.com"
+    }],
+    "require": {
+        "silverstripe/framework": "^4",
+        "silverstripe/cms": "^4"
+    },
+    "extra": {
+        "expose": [
+            "style",
+            "images"
+        ]
+    }
+}
