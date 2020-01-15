@@ -7,6 +7,14 @@
 	background-position: center;
 }
 
+span.cms-help__logo.font-icon-silverstripe {
+    display: none!important;
+}
+
+font-icon-silverstripe {
+    display: none!important;
+}
+
 @media (min-width: 640px) {
 	.ss-loading-screen:before {
 		content: "" !important;
