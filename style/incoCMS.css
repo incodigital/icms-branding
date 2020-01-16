@@ -8,11 +8,23 @@
 }
 
 span.cms-help__logo.font-icon-silverstripe {
-    display: none!important;
+	display: none !important;
 }
 
 font-icon-silverstripe {
-    display: none!important;
+	display: none !important;
+}
+
+.ss-loading-screen__logo {
+	display: none !important;
+}
+
+footer.silverstripe-brand {
+	display: none !important;
+}
+
+.cms-content-loading-spinner {
+	display: none !important;
 }
 
 @media (min-width: 640px) {
